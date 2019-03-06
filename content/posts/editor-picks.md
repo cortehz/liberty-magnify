@@ -1,14 +1,12 @@
 ---
-
 type: "post"
-title: "Must-Have Products Selected by Tyra's Editors"
-author: "Jane Doe"
-category: "makeup"
+title: "How to get the best out of your life"
+author: "Victoria Uwannah"
+category: "therapy"
 date: "2018-01-04"
 slug: "/editors-picks"
 postImage: "./img/flatlay.jpg"
-metaDescription: "We went over the best new products and tried them all. Here's what's hot and what's not!"
-
+metaDescription: "We have curated mistakes learned over the years to bring you some great tips on how to live your best life"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id varius velit. Nullam convallis finibus nisl nec fringilla. Morbi venenatis quam id luctus varius. Mauris quis eros in turpis blandit dapibus. Donec vestibulum cursus tincidunt. Proin laoreet diam ante, at convallis tellus gravida et. Fusce ac varius nulla. Curabitur eget elit aliquam, porta urna at, lacinia velit.
@@ -31,4 +29,4 @@ In vel augue enim. Maecenas in magna ac risus egestas imperdiet. Vivamus consequ
 
 Vestibulum non feugiat diam, sit amet convallis nisl. Etiam a nunc eget velit tincidunt rhoncus. Phasellus ut euismod nisi. Morbi erat arcu, viverra ut feugiat sit amet, mollis id enim. Quisque venenatis ultricies odio eu mattis. Fusce vel placerat lacus, fermentum fringilla neque. Nam enim lectus, consequat id augue eget, laoreet pulvinar dolor.
 
-Vivamus a lacus ante. Morbi sed ex est. Nulla tempor risus eu hendrerit efficitur. Sed porta convallis sapien, eu porttitor augue eleifend eget. Suspendisse lorem turpis, elementum non neque tempus, pellentesque laoreet est. Suspendisse rhoncus justo ac scelerisque placerat. Donec ligula mi, luctus in scelerisque eu, lobortis vitae tellus. Aliquam eget tempus augue, egestas hendrerit est. Vivamus egestas nulla nec mi fermentum porta. Integer commodo nibh tristique nulla vehicula, id ultricies neque dictum. Fusce ut egestas diam. Aliquam at dolor efficitur nulla malesuada consequat ac ut ipsum. 
+Vivamus a lacus ante. Morbi sed ex est. Nulla tempor risus eu hendrerit efficitur. Sed porta convallis sapien, eu porttitor augue eleifend eget. Suspendisse lorem turpis, elementum non neque tempus, pellentesque laoreet est. Suspendisse rhoncus justo ac scelerisque placerat. Donec ligula mi, luctus in scelerisque eu, lobortis vitae tellus. Aliquam eget tempus augue, egestas hendrerit est. Vivamus egestas nulla nec mi fermentum porta. Integer commodo nibh tristique nulla vehicula, id ultricies neque dictum. Fusce ut egestas diam. Aliquam at dolor efficitur nulla malesuada consequat ac ut ipsum.
