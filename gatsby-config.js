@@ -2,11 +2,11 @@ module.exports = {
   siteMetadata: {
     navbarLinks: [{
         to: "/makeup",
-        name: "Makeup"
+        name: "about"
       },
       {
         to: "/lifestyle",
-        name: "Lifestyle"
+        name: "services"
       },
       {
         to: "/blog",

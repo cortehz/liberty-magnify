@@ -65,7 +65,7 @@ const SliderMenu = props => {
           extraClasses
         }
       >
-        About
+        Contact
       </Link>
     </div>
   );
