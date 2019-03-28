@@ -24,11 +24,11 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    height: 80vh;
     min-height: 100%;
     position: relative;
     z-index: 0;
-    background-image: url(https://images.unsplash.com/photo-1446776709462-d6b525c57bd3?fit=crop&fm=jpg&h=1325&ixjsv=2.0.0&ixlib=rb-0.3.5&q=80&w=2575);
+    background-image: url(https://res.cloudinary.com/cortehz/image/upload/v1553780894/nathan-mcbride-231171-unsplash_r8eopj.jpg);
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -41,9 +41,9 @@ h2 {
     left: 0;
     content: "";
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     overflow: hidden;
-    background: linear-gradient(90deg, rgba(214, 71, 89, 0.7) 10%, rgba(218, 115, 82, 0.7) 90%);
+    background: linear-gradient(90deg, rgba(214, 71, 90, 0.582) 10%, rgba(218, 116, 82, 0.548) 90%);
     /* W3C */
 }
 
@@ -74,6 +74,7 @@ h2 {
 }
 
 .hero-nav__content p {
+    font-size: 1.5rem;
     margin: 0;
 }
 

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, StaticQuery, graphql } from "gatsby";
 import { FaPinterestP, FaFacebookF, FaTwitter } from "react-icons/fa";
+import logo from "../../../static/logo.svg";
 import "tachyons";
 
 export default () => (
@@ -19,14 +20,22 @@ export default () => (
       }
     `}
     render={data => (
-      <footer className="pa2 bg-dark-gray near-white pv5">
+      <footer
+        className="pa2 bg-dark-gray near-white"
+        style={{ paddingTop: "4rem" }}
+      >
         <div className="flex flex-wrap justify-around w-100 mw9 center mb5">
-          <div className="w-100 mw5 mb4">
+          <div
+            className="w-100 mw5 mb4"
+            style={{
+              display: "flex",
+              flexDirection: "column"
+            }}
+          >
             <span className="display f2">
               {data.site.siteMetadata.siteTitle}
             </span>
-            <hr />
-            <div className="w-100 flex justify-around items-center pv2">
+            <div className="w-100 flex justify-between items-center pv2">
               <a className="near-white" href={data.site.siteMetadata.facebook}>
                 <FaFacebookF />
               </a>
@@ -87,28 +96,6 @@ export default () => (
         </div>
         <div className="w-100 mw9 center silver mb3">
           <div className="w-100 bb b--mid-gray mv3" />
-          <div className="flex w-100 mw6 items-center justify-center justify-start-ns">
-            <a
-              href="/sitemap.xml"
-              className="silver sans-serif f5 tracked pv1 db mh1"
-            >
-              SITEMAP
-            </a>
-            <span className="mh1">|</span>
-            <Link
-              to="/privacy"
-              className="silver sans-serif f5 tracked pv1 db mh1"
-            >
-              PRIVACY
-            </Link>
-            <span className="mh1">|</span>
-            <a
-              href="https://github.com/madelyneriksen/gatsby-starter-tyra"
-              className="silver sans-serif f5 tracked pv1 db mh1"
-            >
-              THEME
-            </a>
-          </div>
         </div>
         <div className="w-100 mw9 silver center sans-serif f6">
           <p>Liberty Therapies (C) 2019</p>
