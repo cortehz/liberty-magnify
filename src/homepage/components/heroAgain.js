@@ -8,7 +8,7 @@ const heroAgain = () => {
         <div class="hero-nav__inner">
           <h1 />
           <div class="hero-nav__content">
-            <h1>
+            <h1 id="freedom">
               Freedom <span>to</span> Flourish
             </h1>
             <p>
