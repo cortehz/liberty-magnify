@@ -40,7 +40,7 @@ export default () => (
           </div>
           <div className="flex flex-column">
             <span className="near-white sans-serif f5 tracked mb3 db">
-              WRITING BY {data.site.siteMetadata.siteTitle}
+              ON OUR BLOG:
             </span>
             <Link
               to="/blog"
@@ -64,6 +64,18 @@ export default () => (
               className="near-white sans-serif f5 tracked pv1 db"
             >
               ABOUT US
+            </Link>
+            <Link
+              to="/services"
+              className="near-white sans-serif f5 tracked pv1 db"
+            >
+              SERVICES
+            </Link>
+            <Link
+              to="/services#faqs"
+              className="near-white sans-serif f5 tracked pv1 db"
+            >
+              FAQS
             </Link>
             <a
               href={data.site.siteMetadata.mailChimpUrl}

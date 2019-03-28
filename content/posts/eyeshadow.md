@@ -5,7 +5,7 @@ author: "Victoria Uwannah"
 category: "therapy"
 date: "2018-01-06"
 slug: "/lazy-mornings"
-postImage: "./img/eyeshadow.jpg"
+postImage: "./img/flatlay.jpg"
 metaDescription: "Lazy Day? Here's three essential tips on how to have productive days"
 ---
 

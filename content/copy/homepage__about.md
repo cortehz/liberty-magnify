@@ -1,7 +1,7 @@
 ---
 type: "copy"
 name: "homepage__bio"
-title: "Live life, but to its fullest."
+title: "Go on and live a little, then a little... "
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel est quis dolor tincidunt blandit. Quisque id justo ut sapien imperdiet mollis. Nunc efficitur condimentum facilisis. Nam sagittis, est et convallis pharetra, est massa laoreet nisi, vel porta arcu nunc sed ipsum. Nunc orci nisi, ultricies et leo at, bibendum consectetur lacus.

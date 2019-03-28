@@ -14,9 +14,9 @@ export default () => (
       }
     `}
     render={data => (
-      <div className="bg-washed-red flex flex-column justify-center items-center pa2 pv5">
+      <div className="bg-white flex flex-column justify-center items-center pa2 pv5">
         <h1 className="fw1 display db dark-gray f2 tc">
-          {data.site.siteMetadata.homepageHeader}
+          About Liberty Therapies
         </h1>
         <p className="f4 serif mw7 tc lh-copy">
           {data.site.siteMetadata.homepageAbout}
@@ -25,7 +25,7 @@ export default () => (
           to="/about"
           className="mt3 db no-underline ph5 pv3 sans-serif near-white bg-dark-gray ttu tracked b hover-bg-mid-gray"
         >
-          About Liberty Therapies
+          Learn More...
         </Link>
       </div>
     )}

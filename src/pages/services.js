@@ -3,6 +3,7 @@ import Layout from "../common/layouts";
 import Img from "gatsby-image";
 import { graphql, Link } from "gatsby";
 import Seo from "../common/seo";
+import faqList from "../../src/data/faqs.json";
 
 export default ({ props, data }) => (
   <Layout>
@@ -20,7 +21,7 @@ export default ({ props, data }) => (
           transform: "translate(-50%, -50%)"
         }}
       >
-        About {data.site.siteMetadata.title}
+        {data.site.siteMetadata.title} | Services
       </h1>
     </div>
     <div
@@ -37,17 +38,37 @@ export default ({ props, data }) => (
         dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
       />
       <div className="mw7 w-100 pa2">
+        <h1 id="faqs" style={{ marginBottom: "10vh" }}>
+          Frequently Asked Questions (FAQS):
+        </h1>
+        {faqList.map(faq => {
+          return (
+            <div
+              key={faq.question}
+              className="mw7 w-100 lh-copy serif pa2 flex flex-column justify-center f4"
+            >
+              <p>
+                <em>
+                  <strong>{faq.question}</strong>
+                </em>
+              </p>
+              <p>{faq.answer}</p>
+            </div>
+          );
+        })}
+      </div>
+      <div className="mw7 w-100 pa2">
         <div className="mw7 w-100 lh-copy serif pa2 flex flex-column justify-center f4">
           <p>
-            Once in a while we all need some direction. We write a few good
-            tips:
+            Subscribe to the mailing list to be kept up to date with upcoming
+            events and workshops:
           </p>
         </div>
         <Link
           to="/blog"
           className="dib bg-dark-gray b near-white hover-bg-mid-gray pv3 ph4 ttu tracked sans-serif no-underline mv2"
         >
-          Read our blog
+          Subscribe
         </Link>
       </div>
     </div>
@@ -61,7 +82,7 @@ export const dataQuery = graphql`
         title
       }
     }
-    markdownRemark(frontmatter: { name: { eq: "about__bio" } }) {
+    markdownRemark(frontmatter: { name: { eq: "services__bio" } }) {
       html
       frontmatter {
         title

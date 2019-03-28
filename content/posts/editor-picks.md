@@ -5,7 +5,7 @@ author: "Victoria Uwannah"
 category: "therapy"
 date: "2018-01-04"
 slug: "/editors-picks"
-postImage: "./img/flatlay.jpg"
+postImage: "./img/friends.jpg"
 metaDescription: "We have curated mistakes learned over the years to bring you some great tips on how to live your best life"
 ---
 

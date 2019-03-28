@@ -34,25 +34,15 @@ const SliderMenu = props => {
   return (
     <div
       className={
-        "flex flex-column justify-center items-center bg-washed-red fixed top z-max w-100 ease" +
+        "flex flex-column justify-center items-center bg-gray fixed top z-max w-100 ease" +
         (props.active ? " vh-93" : " h0")
       }
     >
-      <Link
-        to="/"
-        className={
-          "display ttu tracked dark-gray f3 no-underline menu__item pv5" +
-          extraClasses
-        }
-      >
-        {props.siteTitle}
-      </Link>
       {props.extraLinks.map(navLink => (
         <MultiLink
           to={navLink.to}
           className={
-            "sans-serif ttu mid-gray f5 no-underline menu__item pv3" +
-            extraClasses
+            "sans-serif ttu white f5 no-underline menu__item pv3" + extraClasses
           }
         >
           {navLink.name}
@@ -61,8 +51,7 @@ const SliderMenu = props => {
       <Link
         to="/about"
         className={
-          "sans-serif ttu mid-gray f5 no-underline menu__item pv3" +
-          extraClasses
+          "sans-serif ttu white f5 no-underline menu__item pv3" + extraClasses
         }
       >
         Contact
@@ -107,7 +96,7 @@ export default class Navbar extends React.Component {
         render={data => (
           <React.Fragment>
             <div
-              className="top-0 z-999 bg-white flex w-100 vh-8"
+              className="top-0 z-999 bg-white flex w-100"
               style={{ display: "flex", flex: 1, position: "sticky" }}
             >
               <button
@@ -118,7 +107,7 @@ export default class Navbar extends React.Component {
               </button>
 
               <div
-                className="bg-white flex w-100 vh-8 pv3 flex justify-between items-center top-0 z-999 bb b--light-gray"
+                className="bg-white flex w-100 flex justify-between items-center top-0 z-999 bb b--light-gray"
                 style={{ position: "sticky", justifyContent: "center" }}
               >
                 <div
@@ -155,7 +144,7 @@ export default class Navbar extends React.Component {
                       HOME
                     </Link>
                     <Link
-                      to="/"
+                      to="/services"
                       className="sans-serif ttu mid-gray f5 no-underline dn dib-l"
                     >
                       SERVICES
@@ -167,13 +156,13 @@ export default class Navbar extends React.Component {
                       ABOUT US
                     </Link>
                     <Link
-                      to="/about"
+                      to="/blog"
                       className="sans-serif ttu mid-gray f5 no-underline dn dib-l"
                     >
                       BLOG
                     </Link>
                     <Link
-                      to="/about"
+                      to="/contact"
                       className="sans-serif ttu mid-gray f5 no-underline dn dib-l"
                     >
                       CONTACT
