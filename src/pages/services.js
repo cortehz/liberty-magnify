@@ -61,7 +61,7 @@ export default ({ props, data }) => (
         <div className="mw7 w-100 lh-copy serif pa2 flex flex-column justify-center f4">
           <p>
             Subscribe to the mailing list to be kept up to date with upcoming
-            events and workshops:
+            events and articles:
           </p>
         </div>
         <Link

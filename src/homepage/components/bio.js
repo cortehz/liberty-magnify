@@ -9,6 +9,7 @@ const Bio = () => {
         <div class="parallax-one">
           <div className="newsletter-form">
             <h1>Subscribe to our Newsletter</h1>
+            <h3>Stay up to date with us</h3>
             <input className="news-input" placeholder="email" type="email" />
             <input className="news" type="submit" value="SUBSCRIBE" />
           </div>
