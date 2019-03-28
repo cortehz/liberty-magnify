@@ -14,6 +14,7 @@ export default ({ props, data }) => (
     <div className="relative">
       <Img fluid={data.banner.childImageSharp.fluid} />
       <h1
+        id="about-h1"
         className="fw1 tc f2 display absolute dn dib-ns"
         style={{
           bottom: "50%",
