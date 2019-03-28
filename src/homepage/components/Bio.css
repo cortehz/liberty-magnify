@@ -94,17 +94,12 @@ input[type="submit"] {
     vertical-align: top;
     margin: 0;
     padding: 2%;
-    border: 2px solid #666;
     border-radius: 3px;
     width: 150px;
     cursor: pointer;
     font-weight: 700;
     letter-spacing: 1px;
-    color: #666;
-    background: rgb(255, 255, 255);
+    color: #fff;
+    background: rgb(41, 41, 41);
     align-self: center;
-}
-
-input[type="submit"]:hover {
-    background: linear-gradient(180deg, rgb(226, 222, 222), rgb(212, 206, 206));
 }

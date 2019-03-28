@@ -1,0 +1,16 @@
+@media screen and (max-width: 895px) {
+    h1 {
+        bottom: 20%;
+        top: 20%;
+        transform: translate(-70%, 70%);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    h1 {
+        bottom: 20%;
+        top: 20%;
+        transform: translate(-70%, 70%);
+        font-size: 24px !important;
+    }
+}

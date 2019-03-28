@@ -1,7 +1,7 @@
 ---
 type: "post"
 title: "How to build long lasting friendships"
-author: "Jane Doe"
+author: "Victoria Uwannah"
 category: "lifestyle"
 date: "2018-01-02"
 slug: "/be-yourself"
