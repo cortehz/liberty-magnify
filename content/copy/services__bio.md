@@ -18,3 +18,7 @@ Therapy is a dedicated time to explore, understand and challenge certain thought
 - Parenting
 - Attachment difficulties
 - Complex Trauma
+
+I provide both face-to-face in Reading, Berkshire (see below for clinic location), but also online therapy which can be accessed internationally, at a time and place convenient for you. I am available for therapy sessions on weekday evenings, and Saturday morning through to the afternoon.
+
+I also provide psychoeducational workshops on mental wellbeing, parenting and building resilient children. If you would like to host a workshop for your particular organisation, please enquire for further information.
