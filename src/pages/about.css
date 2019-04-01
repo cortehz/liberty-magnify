@@ -1,16 +1,17 @@
-@media screen and (max-width: 895px) {
-    #about h1 {
-        bottom: 20%;
-        top: 20%;
-        transform: translate(-70%, 70%);
-    }
+.team-img img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
 }
 
-@media screen and (max-width: 576px) {
-    #about h1 {
-        bottom: 20%;
-        top: 20%;
-        transform: translate(-70%, 70%);
-        font-size: 24px !important;
-    }
+.lisa {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.team-img {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }

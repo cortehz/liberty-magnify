@@ -41,6 +41,7 @@ const SliderMenu = props => {
       {props.extraLinks.map(navLink => (
         <MultiLink
           to={navLink.to}
+          activeClassName="c-main-nav__link--is"
           className={
             "sans-serif ttu white f5 no-underline menu__item pv3" + extraClasses
           }
@@ -49,12 +50,13 @@ const SliderMenu = props => {
         </MultiLink>
       ))}
       <Link
-        to="/about"
+        to="/faqs"
+        activeClassName="c-main-nav__link--is"
         className={
-          "sans-serif ttu white f5 no-underline menu__item pv3" + extraClasses
+          "sans-serif ttu white f7 no-underline menu__item pv3" + extraClasses
         }
       >
-        Contact
+        <em style={{ color: "red" }}>faqs</em>
       </Link>
     </div>
   );
@@ -139,33 +141,46 @@ export default class Navbar extends React.Component {
                   >
                     <Link
                       to="/"
+                      activeClassName="c-main-nav__link--is-active"
                       className="sans-serif ttu mid-gray f5 no-underline dn dib-l"
                     >
                       HOME
                     </Link>
                     <Link
                       to="/services"
+                      activeClassName="c-main-nav__link--is-active"
                       className="sans-serif ttu mid-gray f5 no-underline dn dib-l"
                     >
                       SERVICES
                     </Link>
                     <Link
                       to="/about"
+                      activeClassName="c-main-nav__link--is-active"
                       className="sans-serif ttu mid-gray f5 no-underline dn dib-l"
                     >
-                      ABOUT US
+                      ABOUT
                     </Link>
                     <Link
                       to="/blog"
+                      activeClassName="c-main-nav__link--is-active"
                       className="sans-serif ttu mid-gray f5 no-underline dn dib-l"
                     >
                       BLOG
                     </Link>
                     <Link
                       to="/contact"
+                      activeClassName="c-main-nav__link--is-active"
                       className="sans-serif ttu mid-gray f5 no-underline dn dib-l"
                     >
                       CONTACT
+                    </Link>
+                    <Link
+                      to="/faqs"
+                      activeClassName="c-main-nav__link--is-active"
+                      className="sans-serif ttu mid-gray f7 no-underline dn dib-l"
+                      style={{ color: "red" }}
+                    >
+                      <em>FAQS</em>
                     </Link>
                   </div>
                 </div>

@@ -11,17 +11,9 @@ export default ({ props, data }) => (
       title={`About ${data.site.siteMetadata.title}`}
       description={data.markdownRemark.frontmatter.title}
     />
-    <div className="relative">
-      <Img fluid={data.banner.childImageSharp.fluid} />
-      <h1
-        className="fwh1 fw1 tc f2 display absolute dn dib-ns"
-        style={{
-          bottom: "50%",
-          left: "50%",
-          transform: "translate(-50%, -50%)"
-        }}
-      >
-        {data.site.siteMetadata.title} | Services
+    <div className="pv5 flex items-center justify-center bg-gray">
+      <h1 className="fw1 tc f2 display" style={{ color: "white" }}>
+        Frequently Asked Questions (FAQS)
       </h1>
     </div>
     <div
@@ -33,11 +25,23 @@ export default ({ props, data }) => (
           {data.markdownRemark.frontmatter.title}
         </h1>
       </div>
-      <div
-        className="mw7 w-100 lh-copy serif pa2 flex flex-column justify-center f4"
-        dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
-      />
-
+      <div className="mw7 w-100 pa2">
+        {faqList.map(faq => {
+          return (
+            <div
+              key={faq.question}
+              className="mw7 w-100 lh-copy serif pa2 flex flex-column justify-center f4"
+            >
+              <p>
+                <em>
+                  <strong>{faq.question}</strong>
+                </em>
+              </p>
+              <p>{faq.answer}</p>
+            </div>
+          );
+        })}
+      </div>
       <div className="mw7 w-100 pa2">
         <div className="mw7 w-100 lh-copy serif pa2 flex flex-column justify-center f4">
           <p>

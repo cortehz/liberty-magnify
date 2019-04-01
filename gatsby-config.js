@@ -11,11 +11,15 @@ module.exports = {
       {
         to: "/blog",
         name: "blog"
-      },
+      }, ,
+      {
+        to: "/contact",
+        name: "contact"
+      }
     ],
     title: "Liberty Therapies",
     description: "Liberty Therapies is a psychology service offering face-to-face and online therapy for individuals, couples and families..",
-    siteUrl: "https://tyra-starter.netlify.com",
+    siteUrl: "https://liberties.netlify.com",
     homepageHeader: "Welcome to Liberty Therapies",
     homepageAbout: "Liberty Therapies is run by Dr Victoria Uwannah - Counselling Psychologist. Registered by the Health and Care Professions Council (HCPC). As a Counselling Psychologist, my aim is to come alongside you to bring clarity, compassion and understanding which will help propel you towards change. Having worked within the NHS and private sector for over 10 years, I have a wealth of experience which includes working with adults, young people, families and couples. These settings have included Psychiatric hospitals, Forensics, Community Mental Health Teams, Talking Therapies, and a specialist Personality Disorder service. I also have experience of working in schools delivering therapy to young people, facilitating workshops and providing psychoeducational training for teachers. I have also delivered Parenting courses to private organisations.",
     mailChimpUrl: "https://mailchimp.com",

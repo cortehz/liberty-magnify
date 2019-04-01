@@ -4,6 +4,7 @@ import Img from "gatsby-image";
 import { graphql, Link } from "gatsby";
 import Seo from "../common/seo";
 import "./about.css";
+import Avatar from "../../content/img/avatar.jpg";
 
 export default ({ props, data }) => (
   <Layout>
@@ -13,17 +14,6 @@ export default ({ props, data }) => (
     />
     <div className="relative">
       <Img fluid={data.banner.childImageSharp.fluid} />
-      <h1
-        id="about-h1"
-        className="fw1 tc f2 display absolute dn dib-ns"
-        style={{
-          bottom: "50%",
-          left: "50%",
-          transform: "translate(-50%, -50%)"
-        }}
-      >
-        About {data.site.siteMetadata.title}
-      </h1>
     </div>
     <div
       className="mw9 center flex flex-wrap pv5-l w-100"
@@ -31,26 +21,51 @@ export default ({ props, data }) => (
     >
       <div className="mw7 w-100 pa2">
         <h1 className="display fw1 db lh-copy">
-          {data.markdownRemark.frontmatter.title}
+          Liberty Therapies is a psychology service offering face-to-face and
+          online therapy for individuals, couples and families
         </h1>
       </div>
-      <div
-        className="mw7 w-100 lh-copy serif pa2 flex flex-column justify-center f4"
-        dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
-      />
-      <div className="mw7 w-100 pa2">
-        <div className="mw7 w-100 lh-copy serif pa2 flex flex-column justify-center f4">
-          <p>
-            Once in a while we all need some direction. We write a few good
-            tips:
-          </p>
+
+      <div className="mw7 w-100 lh-copy serif pa2 flex flex-column justify-center f4">
+        <div class="team-img">
+          <img src={Avatar} alt="Dr Victoria Uwannah" />
+          <div class="lisa">
+            <h3 style={{ margin: 0, fontSize: "1.5rem", fontWeight: "bolder" }}>
+              Dr Victoria Uwannah
+            </h3>
+            <p style={{ margin: 0 }}>
+              <em>Counselling Psychologist</em>
+            </p>
+          </div>
         </div>
-        <Link
-          to="/blog"
-          className="dib bg-dark-gray b near-white hover-bg-mid-gray pv3 ph4 ttu tracked sans-serif no-underline mv2"
-        >
-          Read our blog
-        </Link>
+        <p style={{ fontSize: "0.9rem" }}>
+          Registered by the Health and Care Professions Council (HCPC).
+        </p>
+        <p>
+          As a Counselling Psychologist, my aim is to come alongside you to
+          bring clarity, compassion and understanding which will help propel you
+          towards change. Having worked within the NHS and private sector for
+          over 10 years, I have a wealth of experience which includes working
+          with adults, young people, families and couples. These settings have
+          included Psychiatric hospitals, Forensics, Community Mental Health
+          Teams, Talking Therapies, and a specialist Personality Disorder
+          service. I also have experience of working in schools delivering
+          therapy to young people, facilitating workshops and providing
+          psychoeducational training for teachers. I have also delivered
+          Parenting courses to private organisations.
+        </p>
+        <p>
+          I’m passionate about bringing Psychology to the masses and connecting
+          with prospective clients in a way that is completely down-to-earth and
+          relatable, yet professional and effective. I like to bring the human
+          nature to any therapeutic interaction; it doesn’t need to be all doom
+          and gloom, therapy can be a time of curiosity and hilarity as well as
+          deep revelation and sobriety. Therapy can take many approaches. As a
+          Counselling Psychologist I am trained in several therapy modalities
+          such as Cognitive Behavioural Therapy (CBT), Psychodynamic Therapy,
+          Mentalisation Based Therapy (MBT) and Dialectical Behaviour Therapy
+          (DBT). I also draw on Mindfulness and Relaxation techniques.
+        </p>
       </div>
     </div>
   </Layout>

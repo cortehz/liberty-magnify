@@ -1,7 +1,7 @@
 ---
 type: "copy"
 name: "services__bio"
-title: "Therapy:"
+title: ""
 ---
 
 Therapy is a dedicated time to explore, understand and challenge certain thoughts, emotions and behaviours with an experienced professional. It requires commitment and investment which is not always an easy journey, but an important one. Therapy typically can cover the following areas:
