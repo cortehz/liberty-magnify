@@ -19,6 +19,6 @@ Therapy is a dedicated time to explore, understand and challenge certain thought
 - Attachment difficulties
 - Complex Trauma
 
-I provide both face-to-face in Reading, Berkshire, United Kingdom. For Clinic Location [CLICK HERE](http://liberties.netlify.com/contacts), but also online therapy which can be accessed internationally, at a time and place convenient for you. I am available for therapy sessions on weekday evenings, and Saturday morning through to the afternoon.
+I provide both face-to-face in Reading, Berkshire, United Kingdom. For Clinic Location [CLICK HERE](http://liberties.netlify.com/contact), but also online therapy which can be accessed internationally, at a time and place convenient for you. I am available for therapy sessions on weekday evenings, and Saturday morning through to the afternoon.
 
 I also provide psychoeducational workshops on mental wellbeing, parenting and building resilient children. If you would like to host a workshop for your particular organisation, please enquire for further information.
