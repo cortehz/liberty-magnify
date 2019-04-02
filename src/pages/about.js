@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../common/layouts";
 import Img from "gatsby-image";
-import { graphql, Link } from "gatsby";
+import { graphql } from "gatsby";
 import Seo from "../common/seo";
 import "./about.css";
 import Avatar from "../../content/img/avatar.jpg";

@@ -6,7 +6,6 @@ const heroAgain = () => {
     <>
       <div class="hero-nav">
         <div class="hero-nav__inner">
-          <h1 />
           <div class="hero-nav__content">
             <h1 id="freedom">
               Freedom <span>to</span> Flourish
