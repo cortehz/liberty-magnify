@@ -16,7 +16,7 @@ export default ({ props, data }) => (
       </h1>
     </div>
     <div
-      className="mw9 center flex flex-wrap pv5-l w-100"
+      className="mw9 center flex flex-wrap flex-column pv5-l w-100"
       style={{ justifyContent: "center" }}
     >
       <div className="mw7 w-100 pa2">
