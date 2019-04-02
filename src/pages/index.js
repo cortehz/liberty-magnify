@@ -8,7 +8,6 @@ import Bio from "../homepage/components/bio";
 import Seo from "../common/seo";
 
 export default ({ data }) => {
-  let post = data.featuredPost.edges[0].node;
   return (
     <Layout>
       <Seo
