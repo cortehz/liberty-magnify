@@ -23,16 +23,16 @@ export default ({ props, data }) => (
         {data.site.siteMetadata.title} | Services
       </h1>
     </div>
-    <div
-      className="mw9 center flex flex-wrap pv5-l w-100"
-      style={{ justifyContent: "center" }}
-    >
+    <div className="mw9 center flex flex-column flex-wrap pv5-l w-100">
       <div
         className="mw7 w-100 lh-copy serif pa2 flex flex-column justify-center f4"
+        style={{ margin: "0 auto" }}
         dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
       />
-
-      <div className="mw7 w-100 lh-copy serif pa2 flex flex-column justify-center f4">
+      <div
+        className="mw7 w-100 lh-copy serif pa2 flex flex-column justify-center f4"
+        style={{ margin: "0 auto" }}
+      >
         <p>
           Subscribe to the mailing list to be kept up to date with upcoming
           events and workshops:
