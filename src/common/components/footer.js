@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, StaticQuery, graphql } from "gatsby";
 import { FaPinterestP, FaFacebookF, FaTwitter } from "react-icons/fa";
-
+import logo from "../../../static/logo.svg";
 import "tachyons";
 
 export default () => (

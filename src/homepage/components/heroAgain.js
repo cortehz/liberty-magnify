@@ -3,7 +3,7 @@ import "./heroAgain.css";
 
 const heroAgain = () => {
   return (
-    <>
+    <div>
       <div class="hero-nav">
         <div class="hero-nav__inner">
           <div class="hero-nav__content">
@@ -18,7 +18,7 @@ const heroAgain = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -3,6 +3,7 @@ import Layout from "../common/layouts";
 import Img from "gatsby-image";
 import { graphql, Link } from "gatsby";
 import Seo from "../common/seo";
+import faqList from "../../src/data/faqs.json";
 
 export default ({ props, data }) => (
   <Layout>
