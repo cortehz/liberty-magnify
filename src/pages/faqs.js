@@ -15,11 +15,8 @@ export default ({ props, data }) => (
         Frequently Asked Questions (FAQS)
       </h1>
     </div>
-    <div
-      className="mw9 center flex flex-wrap flex-column pv5-l w-100"
-      style={{ justifyContent: "center" }}
-    >
-      <div className="mw7 w-100 pa2">
+    <div className="mw9 center flex flex-wrap flex-column pv5-l w-100">
+      <div className="mw7 w-100 pa2" style={{ margin: "0 auto" }}>
         {faqList.map(faq => {
           return (
             <div
@@ -35,20 +32,20 @@ export default ({ props, data }) => (
             </div>
           );
         })}
-      </div>
-      <div className="mw7 w-100 pa2">
-        <div className="mw7 w-100 lh-copy serif pa2 flex flex-column justify-center f4">
-          <p>
-            Subscribe to the mailing list to be kept up to date with upcoming
-            events and workshops:
-          </p>
+        <div className="mw7 w-100 pa2">
+          <div className="mw7 w-100 lh-copy serif pa2 flex flex-column justify-center f4">
+            <p>
+              Subscribe to the mailing list to be kept up to date with upcoming
+              events and workshops:
+            </p>
+          </div>
+          <Link
+            to="/blog"
+            className="dib bg-dark-gray b near-white hover-bg-mid-gray pv3 ph4 ttu tracked sans-serif no-underline mv2"
+          >
+            Subscribe
+          </Link>
         </div>
-        <Link
-          to="/blog"
-          className="dib bg-dark-gray b near-white hover-bg-mid-gray pv3 ph4 ttu tracked sans-serif no-underline mv2"
-        >
-          Subscribe
-        </Link>
       </div>
     </div>
   </Layout>
