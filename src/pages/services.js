@@ -7,7 +7,7 @@ import Seo from "../common/seo";
 export default ({ props, data }) => (
   <Layout>
     <Seo
-      title={`About ${data.site.siteMetadata.title}`}
+      title={`Services ${data.site.siteMetadata.title}`}
       description={data.markdownRemark.frontmatter.title}
     />
     <div className="relative">
@@ -27,11 +27,6 @@ export default ({ props, data }) => (
       className="mw9 center flex flex-wrap pv5-l w-100"
       style={{ justifyContent: "center" }}
     >
-      <div className="mw7 w-100 pa2">
-        <h1 className="display fw1 db lh-copy">
-          {data.markdownRemark.frontmatter.title}
-        </h1>
-      </div>
       <div
         className="mw7 w-100 lh-copy serif pa2 flex flex-column justify-center f4"
         dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}

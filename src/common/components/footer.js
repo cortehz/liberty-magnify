@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, StaticQuery, graphql } from "gatsby";
-import { FaPinterestP, FaFacebookF, FaTwitter } from "react-icons/fa";
+import { FaInstagram, FaFacebookF } from "react-icons/fa";
 import "tachyons";
 
 export default () => (
@@ -34,15 +34,20 @@ export default () => (
             <span className="display f2">
               {data.site.siteMetadata.siteTitle}
             </span>
-            <div className="w-100 flex justify-between items-center pv2">
-              <a className="near-white" href={data.site.siteMetadata.facebook}>
-                <FaFacebookF />
+            <div className="w-100 flex justify-left items-center pv2">
+              <a
+                className="near-white"
+                style={{ margin: "5px" }}
+                href={data.site.siteMetadata.facebook}
+              >
+                <FaFacebookF size="1.5em" />
               </a>
-              <a className="near-white" href={data.site.siteMetadata.pinterest}>
-                <FaPinterestP />
-              </a>
-              <a className="near-white" href={data.site.siteMetadata.twitter}>
-                <FaTwitter />
+              <a
+                className="near-white"
+                style={{ margin: "5px" }}
+                href={data.site.siteMetadata.pinterest}
+              >
+                <FaInstagram size="1.5em" />
               </a>
             </div>
           </div>
@@ -55,12 +60,6 @@ export default () => (
               className="near-white sans-serif f5 tracked pv1 db"
             >
               ALL POSTS
-            </Link>
-            <Link
-              to="/rss.xml"
-              className="near-white sans-serif f5 tracked pv1 db"
-            >
-              RSS FEED
             </Link>
           </div>
           <div className="flex flex-column">

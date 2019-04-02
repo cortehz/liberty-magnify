@@ -131,7 +131,7 @@ module.exports = {
         respectDNT: true,
         exclude: ['/success'],
         cookieDomain: "tyra-starter.netlify.com",
-      }
+      },
     }
   ]
 }
