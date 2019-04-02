@@ -88,7 +88,7 @@ export class MapContainer extends Component {
                       color="black"
                       style={{ verticalAlign: "middle" }}
                     />
-                    255 Ramon Drive, Reading, United Kingdom
+                    Berkshire, Reading, United Kingdom
                   </p>
                 </form>
               </div>

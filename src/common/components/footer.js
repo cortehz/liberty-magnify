@@ -70,7 +70,7 @@ export default () => (
               to="/about"
               className="near-white sans-serif f5 tracked pv1 db"
             >
-              ABOUT US
+              ABOUT
             </Link>
             <Link
               to="/services"
