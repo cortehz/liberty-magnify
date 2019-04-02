@@ -11,7 +11,7 @@ module.exports = {
       {
         to: "/blog",
         name: "blog"
-      }, ,
+      },
       {
         to: "/contact",
         name: "contact"
