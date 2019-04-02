@@ -20,11 +20,6 @@ export default ({ props, data }) => (
       style={{ justifyContent: "center" }}
     >
       <div className="mw7 w-100 pa2">
-        <h1 className="display fw1 db lh-copy">
-          {data.markdownRemark.frontmatter.title}
-        </h1>
-      </div>
-      <div className="mw7 w-100 pa2">
         {faqList.map(faq => {
           return (
             <div
