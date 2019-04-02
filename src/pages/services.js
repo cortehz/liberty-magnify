@@ -32,15 +32,14 @@ export default ({ props, data }) => (
         dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
       />
 
-      <div className="mw7 w-100 pa2">
-        <div className="mw7 w-100 lh-copy serif pa2 flex flex-column justify-center f4">
-          <p>
-            Subscribe to the mailing list to be kept up to date with upcoming
-            events and workshops:
-          </p>
-        </div>
+      <div className="mw7 w-100 lh-copy serif pa2 flex flex-column justify-center f4">
+        <p>
+          Subscribe to the mailing list to be kept up to date with upcoming
+          events and workshops:
+        </p>
         <Link
           to="/blog"
+          style={{ width: "190px" }}
           className="dib bg-dark-gray b near-white hover-bg-mid-gray pv3 ph4 ttu tracked sans-serif no-underline mv2"
         >
           Subscribe
