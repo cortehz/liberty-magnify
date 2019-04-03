@@ -99,8 +99,8 @@ export class MapContainer extends Component {
             zoom={14}
             style={mapStyles}
             initialCenter={{
-              lat: 45,
-              lng: 56
+              lat: 51.4542645,
+              lng: -0.9781303
             }}
           >
             <Marker onClick={this.onMarkerClick} name={"Liberty Therapies"} />
