@@ -50,13 +50,13 @@ const SliderMenu = props => {
         </MultiLink>
       ))}
       <Link
-        to="/faqs"
+        to="/contact"
         activeClassName="c-main-nav__link--is"
         className={
-          "sans-serif ttu white f7 no-underline menu__item pv3" + extraClasses
+          "sans-serif ttu white f5 no-underline menu__item pv3" + extraClasses
         }
       >
-        <em style={{ color: "red" }}>faqs</em>
+        contact
       </Link>
     </div>
   );
@@ -168,19 +168,18 @@ export default class Navbar extends React.Component {
                       BLOG
                     </Link>
                     <Link
+                      to="/faqs"
+                      activeClassName="c-main-nav__link--is-active"
+                      className="sans-serif ttu mid-gray f5 no-underline dn dib-l"
+                    >
+                      FAQS
+                    </Link>
+                    <Link
                       to="/contact"
                       activeClassName="c-main-nav__link--is-active"
                       className="sans-serif ttu mid-gray f5 no-underline dn dib-l"
                     >
                       CONTACT
-                    </Link>
-                    <Link
-                      to="/faqs"
-                      activeClassName="c-main-nav__link--is-active"
-                      className="sans-serif ttu mid-gray f7 no-underline dn dib-l"
-                      style={{ color: "red" }}
-                    >
-                      <em>FAQS</em>
                     </Link>
                   </div>
                 </div>

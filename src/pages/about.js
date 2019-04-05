@@ -20,16 +20,10 @@ export default ({ props, data }) => (
       className="mw7 w-100 lh-copy serif pa2 flex flex-column justify-center f4"
       style={{ margin: "0 auto" }}
     >
-      <div className="mw7 w-100 pa2">
-        <h1 className="display fw1 db lh-copy">
-          Liberty Therapies is a psychology service offering face-to-face and
-          online therapy for individuals, couples and families
-        </h1>
-      </div>
       <div class="team-img">
         <img src={Avatar} alt="Dr Victoria Uwannah" />
         <div class="lisa">
-          <h3 style={{ margin: 0, fontSize: "1.5rem", fontWeight: "bolder" }}>
+          <h3 style={{ margin: 0, fontSize: "3rem", fontWeight: "bolder" }}>
             Dr Victoria Uwannah
           </h3>
           <p style={{ margin: 0 }}>
@@ -37,8 +31,9 @@ export default ({ props, data }) => (
           </p>
         </div>
       </div>
-      <p style={{ fontSize: "0.9rem" }}>
-        Registered by the Health and Care Professions Council (HCPC).
+      <p style={{ fontSize: "0.7rem" }}>
+        Registered by the Health and Care Professions Council (HCPC) and the
+        British Psychological Society (BPS)
       </p>
       <p>
         As a Counselling Psychologist, my aim is to come alongside you to bring

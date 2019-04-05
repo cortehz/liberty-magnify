@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../common/layouts";
-import { graphql, Link } from "gatsby";
+import { graphql } from "gatsby";
 import Seo from "../common/seo";
 import faqList from "../../src/data/faqs.json";
 
@@ -32,20 +32,6 @@ export default ({ props, data }) => (
             </div>
           );
         })}
-        <div className="mw7 w-100 pa2">
-          <div className="mw7 w-100 lh-copy serif pa2 flex flex-column justify-center f4">
-            <p>
-              Subscribe to the mailing list to be kept up to date with upcoming
-              events and workshops:
-            </p>
-          </div>
-          <Link
-            to="/blog"
-            className="dib bg-dark-gray b near-white hover-bg-mid-gray pv3 ph4 ttu tracked sans-serif no-underline mv2"
-          >
-            Subscribe
-          </Link>
-        </div>
       </div>
     </div>
   </Layout>

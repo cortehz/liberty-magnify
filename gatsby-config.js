@@ -13,8 +13,8 @@ module.exports = {
         name: "blog"
       },
       {
-        to: "/contact",
-        name: "contact"
+        to: "/faqs",
+        name: "faqs"
       }
     ],
     title: "Liberty Therapies",

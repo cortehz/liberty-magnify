@@ -1,9 +1,10 @@
 .container {
     max-width: 768px;
-    height: 50vh;
+    height: 80vh;
     width: 100%;
-    margin: 0 auto;
+    margin: 2% auto;
     position: relative;
+    z-index: -1000;
 }
 
 #contact input[type="text"],
@@ -18,6 +19,7 @@
 #contact {
     background: #F9F9F9;
     padding: 25px;
+    z-index: -1000;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 

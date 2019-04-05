@@ -1,8 +1,11 @@
 import React from "react";
 import Layout from "../common/layouts";
 import Img from "gatsby-image";
-import { graphql, Link } from "gatsby";
+import { graphql } from "gatsby";
 import Seo from "../common/seo";
+import MapContainer from "../homepage/components/MapContainer";
+import { FaMapPin } from "react-icons/fa";
+import "./services.css";
 
 export default ({ props, data }) => (
   <Layout>
@@ -29,21 +32,35 @@ export default ({ props, data }) => (
         style={{ margin: "0 auto" }}
         dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
       />
-      <div
-        className="mw7 w-100 lh-copy serif pa2 flex flex-column justify-center f4"
-        style={{ margin: "0 auto" }}
-      >
-        <p>
-          Subscribe to the mailing list to be kept up to date with upcoming
-          events and workshops:
-        </p>
-        <Link
-          to="/blog"
-          style={{ width: "190px" }}
-          className="dib bg-dark-gray b near-white hover-bg-mid-gray pv3 ph4 ttu tracked sans-serif no-underline mv2"
-        >
-          Subscribe
-        </Link>
+      <div className="map-container">
+        <div className="map">
+          <MapContainer />
+        </div>
+
+        <div className="address-container">
+          <ul>
+            <li />
+            <li />
+            <li />
+            <li />
+            <li />
+          </ul>
+          <ul className="address-ul">
+            <li className="berkshire-li">
+              <FaMapPin />
+              The Therapy Centre,
+            </li>
+            <li>6B Church Street, Reading RG1 2SB.</li>
+            <li className="berkshire-li">
+              <FaMapPin />
+              07775441157
+            </li>
+            <li className="berkshire-li">
+              <FaMapPin />
+              London Office: To be Confirmed
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </Layout>
