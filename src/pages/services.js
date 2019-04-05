@@ -4,7 +4,7 @@ import Img from "gatsby-image";
 import { graphql } from "gatsby";
 import Seo from "../common/seo";
 import MapContainer from "../homepage/components/MapContainer";
-import { FaMapPin } from "react-icons/fa";
+import { FaMapMarkerAlt, FaPhone } from "react-icons/fa";
 import "./services.css";
 
 export default ({ props, data }) => (
@@ -47,16 +47,16 @@ export default ({ props, data }) => (
           </ul>
           <ul className="address-ul">
             <li className="berkshire-li">
-              <FaMapPin />
+              <FaMapMarkerAlt style={{ marginRight: "10" }} />
               The Therapy Centre,
             </li>
             <li>6B Church Street, Reading RG1 2SB.</li>
             <li className="berkshire-li">
-              <FaMapPin />
+              <FaPhone style={{ marginRight: "10" }} />
               07775441157
             </li>
             <li className="berkshire-li">
-              <FaMapPin />
+              <FaMapMarkerAlt style={{ marginRight: "10" }} />
               London Office: To be Confirmed
             </li>
           </ul>
