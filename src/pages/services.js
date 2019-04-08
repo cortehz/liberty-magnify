@@ -15,16 +15,6 @@ export default ({ props, data }) => (
     />
     <div className="relative">
       <Img fluid={data.banner.childImageSharp.fluid} />
-      <h1
-        className="fwh1 fw1 tc f2 display absolute dn dib-ns"
-        style={{
-          bottom: "50%",
-          left: "50%",
-          transform: "translate(-50%, -50%)"
-        }}
-      >
-        {data.site.siteMetadata.title} | Services
-      </h1>
     </div>
     <div className="mw9 center flex flex-column flex-wrap pv5-l w-100">
       <div
@@ -81,7 +71,7 @@ export const dataQuery = graphql`
     }
     banner: file(relativePath: { eq: "img/aachal.jpg" }) {
       childImageSharp {
-        fluid(maxHeight: 620, maxWidth: 1920) {
+        fluid(maxHeight: 420, maxWidth: 1920) {
           ...GatsbyImageSharpFluid
         }
       }

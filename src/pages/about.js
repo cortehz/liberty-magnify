@@ -31,7 +31,13 @@ export default ({ props, data }) => (
           </p>
         </div>
       </div>
-      <p style={{ fontSize: "0.7rem" }}>
+      <p
+        style={{
+          fontSize: "0.7rem",
+          maxWidth: "200px",
+          marginLeft: "auto"
+        }}
+      >
         Registered by the Health and Care Professions Council (HCPC) and the
         British Psychological Society (BPS)
       </p>
@@ -79,7 +85,7 @@ export const dataQuery = graphql`
     }
     banner: file(relativePath: { eq: "img/about__banner.jpg" }) {
       childImageSharp {
-        fluid(maxHeight: 620, maxWidth: 1920) {
+        fluid(maxHeight: 520, maxWidth: 1920) {
           ...GatsbyImageSharpFluid
         }
       }

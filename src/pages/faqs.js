@@ -24,11 +24,13 @@ export default ({ props, data }) => (
               className="mw7 w-100 lh-copy serif pa2 flex flex-column justify-center f4"
             >
               <p>
-                <em>
-                  <strong>{faq.question}</strong>
-                </em>
+                <strong>
+                  <em>{faq.question}</em>
+                </strong>
+
+                <br />
+                {faq.answer}
               </p>
-              <p>{faq.answer}</p>
             </div>
           );
         })}

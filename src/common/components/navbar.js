@@ -147,18 +147,18 @@ export default class Navbar extends React.Component {
                       HOME
                     </Link>
                     <Link
-                      to="/services"
-                      activeClassName="c-main-nav__link--is-active"
-                      className="sans-serif ttu mid-gray f5 no-underline dn dib-l"
-                    >
-                      SERVICES
-                    </Link>
-                    <Link
                       to="/about"
                       activeClassName="c-main-nav__link--is-active"
                       className="sans-serif ttu mid-gray f5 no-underline dn dib-l"
                     >
                       ABOUT
+                    </Link>
+                    <Link
+                      to="/services"
+                      activeClassName="c-main-nav__link--is-active"
+                      className="sans-serif ttu mid-gray f5 no-underline dn dib-l"
+                    >
+                      SERVICES
                     </Link>
                     <Link
                       to="/blog"
