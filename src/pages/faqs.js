@@ -7,7 +7,7 @@ import faqList from "../../src/data/faqs.json";
 export default ({ props, data }) => (
   <Layout>
     <Seo
-      title={`FAQS ${data.site.siteMetadata.title}`}
+      title={`Frequently Asked Questions, FAQS ${data.site.siteMetadata.title}`}
       description={data.markdownRemark.frontmatter.title}
     />
     <div className="pv5 flex items-center justify-center bg-gray">

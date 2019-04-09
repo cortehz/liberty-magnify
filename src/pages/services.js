@@ -10,7 +10,7 @@ import "./services.css";
 export default ({ props, data }) => (
   <Layout>
     <Seo
-      title={`Services ${data.site.siteMetadata.title}`}
+      title={`Services | ${data.site.siteMetadata.title}`}
       description={data.markdownRemark.frontmatter.title}
     />
     <div className="relative">

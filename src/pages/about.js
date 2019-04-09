@@ -9,7 +9,7 @@ import Avatar from "../../content/img/avatar.jpg";
 export default ({ props, data }) => (
   <Layout>
     <Seo
-      title={`About ${data.site.siteMetadata.title}`}
+      title={`About | ${data.site.siteMetadata.title}`}
       description={data.markdownRemark.frontmatter.title}
     />
     <div className="relative">
