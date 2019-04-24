@@ -15,13 +15,13 @@ const Contact = () => {
                 id="contact"
                 name="contact"
                 method="POST"
-                data-netlify="true"
+                action="https://formspree.io/omanchis@gmail.com"
               >
                 <h3>Contact</h3>
                 <h4>
                   Please feel free to leave me a message and I will get back to
                   you as soon as I can. Alternatively, you can call and leave a
-                  message on 07775441157.
+                  message on <strong>07775441157</strong>.
                 </h4>
                 <fieldset>
                   <input
