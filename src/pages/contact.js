@@ -49,12 +49,7 @@ const Contact = () => {
                   />
                 </fieldset>
                 <fieldset>
-                  <button
-                    name="submit"
-                    type="submit"
-                    id="contact-submit"
-                    data-submit="...Sending"
-                  >
+                  <button name="submit" type="submit" id="contact-submit">
                     Submit
                   </button>
                 </fieldset>
