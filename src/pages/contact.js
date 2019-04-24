@@ -9,9 +9,14 @@ const Contact = () => {
       <Seo title="Contact Liberty Therapies" />
       <div className="contact-form">
         <div style={{ display: "flex" }}>
-          <div style={{ width: "100vw" }}>
+          <div style={{ width: "100vw", zIndex: "1" }}>
             <div className="container">
-              <form id="contact" action="" method="post">
+              <form
+                id="contact"
+                name="contact"
+                method="POST"
+                data-netlify="true"
+              >
                 <h3>Contact</h3>
                 <h4>
                   Please free free to leave me a message and I will get back to
@@ -21,6 +26,7 @@ const Contact = () => {
                   <input
                     placeholder="Your name"
                     type="text"
+                    name="name"
                     tabIndex="1"
                     required
                   />
@@ -29,6 +35,7 @@ const Contact = () => {
                   <input
                     placeholder="Email Address"
                     type="email"
+                    name="email"
                     tabIndex="2"
                     required
                   />
@@ -36,6 +43,7 @@ const Contact = () => {
                 <fieldset>
                   <textarea
                     placeholder="Type your message here..."
+                    name="message"
                     tabIndex="4"
                     required
                   />

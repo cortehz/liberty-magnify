@@ -88,7 +88,7 @@ export default () => (
               href={data.site.siteMetadata.mailChimpUrl}
               className="near-white sans-serif f5 tracked pv1 db"
             >
-              NEWS LETTER
+              NEWSLETTER
             </a>
           </div>
         </div>
