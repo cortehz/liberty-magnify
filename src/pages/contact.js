@@ -19,8 +19,9 @@ const Contact = () => {
               >
                 <h3>Contact</h3>
                 <h4>
-                  Please free free to leave me a message and I will get back to
-                  you as soon as I can.
+                  Please feel free to leave me a message and I will get back to
+                  you as soon as I can. Alternatively, you can call and leave a
+                  message on 07775441157.
                 </h4>
                 <fieldset>
                   <input
