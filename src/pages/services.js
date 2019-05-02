@@ -13,8 +13,10 @@ export default ({ props, data }) => (
       title={`Services | ${data.site.siteMetadata.title}`}
       description={data.markdownRemark.frontmatter.title}
     />
-    <div className="relative">
-      <Img fluid={data.banner.childImageSharp.fluid} />
+    <div className="pv5 flex items-center justify-center bg-gray">
+      <h1 className="fw1 tc f2 display" style={{ color: "white" }}>
+        Services
+      </h1>
     </div>
     <div className="mw9 center flex flex-column flex-wrap pv5-l w-100">
       <div

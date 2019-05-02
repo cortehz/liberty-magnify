@@ -15,7 +15,7 @@ export default ({ data }) => {
       />
       <HeroAgain />
 
-      <h1 style={{ textAlign: "center", paddingBottom: "20px" }}>Articles</h1>
+      <h1 style={{ textAlign: "center", paddingBottom: "20px" }}>Blog Posts</h1>
       <div className="flex flex-wrap center mw9 justify-around pb3">
         {data.cards.edges.map(({ node }) => (
           <Card
