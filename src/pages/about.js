@@ -4,7 +4,7 @@ import Img from "gatsby-image";
 import { graphql } from "gatsby";
 import Seo from "../common/seo";
 import "./about.css";
-import Avatar from "../../content/img/avatar.jpg";
+import Avatar from "../../content/img/avatar2.jpg";
 
 export default ({ props, data }) => (
   <Layout>
