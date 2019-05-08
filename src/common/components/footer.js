@@ -38,13 +38,6 @@ export default () => (
               <a
                 className="near-white"
                 style={{ margin: "5px" }}
-                href={data.site.siteMetadata.facebook}
-              >
-                <FaFacebookF size="1.5em" />
-              </a>
-              <a
-                className="near-white"
-                style={{ margin: "5px" }}
                 href={data.site.siteMetadata.pinterest}
               >
                 <FaInstagram size="1.5em" />
